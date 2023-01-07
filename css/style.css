@@ -112,12 +112,36 @@ small, .text_small {font-size: 0.667rem;}
 /* END Typo(graphy)*/
 
 /*Global Styles*/
+
+.d-flex{
+    display: flex;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.h-center{
+    align-items: center;
+}
+
 .split-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+}
+.wrapper {
+    padding: 2em;
+}
+
+.m-0 {
+    margin: 0;
 }
 
 /*END Global Style*/
@@ -131,5 +155,20 @@ small, .text_small {font-size: 0.667rem;}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
-}   
+} 
+.social-sidebar img {
+    width: 1.3em;
+    margin: 0.5em;
+}
+
+.social-sidebar{
+    margin: 0.1em;
+}
+
+.logo {
+    width: 4em;
+}
+.social-footer{
+    flex-direction: row;
+}
 /*END Main Styles*/
