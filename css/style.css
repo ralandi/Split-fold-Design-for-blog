@@ -101,6 +101,7 @@ h1 {
 }
 
 h2 {font-size: 5.063rem;}
+#smaller {font-size: 4rem;}
 
 h3 {font-size: 3.375rem;}
 
@@ -168,6 +169,14 @@ small, .text_small {font-size: 0.667rem;}
 .logo {
     width: 4em;
 }
+.hero-copy span{
+text-transform: capitalize;
+}
+
+.hero-copy > h2 > span{
+color: orange
+}
+
 .social-footer{
     flex-direction: row;
 }
